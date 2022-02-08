@@ -1,0 +1,6 @@
+module Pods_blood_donation {
+  umbrella header "Pods-blood-donation-umbrella.h"
+
+  export *
+  module * { export * }
+}

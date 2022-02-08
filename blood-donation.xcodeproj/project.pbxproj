@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4C3771CBFD28EBA7C73424 /* libPods-blood-donation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9FEDC43D0221CFC33E57A1 /* libPods-blood-donation.a */; };
+		478B0FB22792F159006EE72B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B0FB12792F159006EE72B /* AppDelegate.swift */; };
+		478B0FB42792F159006EE72B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B0FB32792F159006EE72B /* SceneDelegate.swift */; };
+		478B0FB62792F159006EE72B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B0FB52792F159006EE72B /* ViewController.swift */; };
+		478B0FB92792F159006EE72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478B0FB72792F159006EE72B /* Main.storyboard */; };
+		478B0FBB2792F15C006EE72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478B0FBA2792F15C006EE72B /* Assets.xcassets */; };
+		478B0FBE2792F15C006EE72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478B0FBC2792F15C006EE72B /* LaunchScreen.storyboard */; };
+		478B0FC62793211B006EE72B /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B0FC52793211B006EE72B /* BannerCell.swift */; };
+		47DBA906279328170019C9CE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DBA905279328170019C9CE /* HomeController.swift */; };
+		47DBA908279335040019C9CE /* DonationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DBA907279335040019C9CE /* DonationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		478B0FAE2792F159006EE72B /* blood-donation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blood-donation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B0FB12792F159006EE72B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478B0FB32792F159006EE72B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		478B0FB52792F159006EE72B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478B0FB82792F159006EE72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478B0FBA2792F15C006EE72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478B0FBD2792F15C006EE72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478B0FBF2792F15C006EE72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478B0FC52793211B006EE72B /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		47DBA905279328170019C9CE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		47DBA907279335040019C9CE /* DonationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationController.swift; sourceTree = "<group>"; };
+		9A26D37EC89435CB397ADE15 /* Pods-blood-donation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blood-donation.release.xcconfig"; path = "Target Support Files/Pods-blood-donation/Pods-blood-donation.release.xcconfig"; sourceTree = "<group>"; };
+		C1B1C9E828251514A7F2F533 /* Pods-blood-donation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blood-donation.debug.xcconfig"; path = "Target Support Files/Pods-blood-donation/Pods-blood-donation.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9FEDC43D0221CFC33E57A1 /* libPods-blood-donation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blood-donation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478B0FAB2792F159006EE72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C3771CBFD28EBA7C73424 /* libPods-blood-donation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478B0FA52792F159006EE72B = {
+			isa = PBXGroup;
+			children = (
+				478B0FB02792F159006EE72B /* blood-donation */,
+				478B0FAF2792F159006EE72B /* Products */,
+				F80BF02145831C60BF5B3816 /* Pods */,
+				798BBFD1B87339F8B834E98C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		478B0FAF2792F159006EE72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478B0FAE2792F159006EE72B /* blood-donation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478B0FB02792F159006EE72B /* blood-donation */ = {
+			isa = PBXGroup;
+			children = (
+				478B0FB12792F159006EE72B /* AppDelegate.swift */,
+				478B0FB32792F159006EE72B /* SceneDelegate.swift */,
+				478B0FB52792F159006EE72B /* ViewController.swift */,
+				478B0FB72792F159006EE72B /* Main.storyboard */,
+				47DBA907279335040019C9CE /* DonationController.swift */,
+				47DBA905279328170019C9CE /* HomeController.swift */,
+				478B0FC52793211B006EE72B /* BannerCell.swift */,
+				478B0FBA2792F15C006EE72B /* Assets.xcassets */,
+				478B0FBC2792F15C006EE72B /* LaunchScreen.storyboard */,
+				478B0FBF2792F15C006EE72B /* Info.plist */,
+			);
+			path = "blood-donation";
+			sourceTree = "<group>";
+		};
+		798BBFD1B87339F8B834E98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FEDC43D0221CFC33E57A1 /* libPods-blood-donation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F80BF02145831C60BF5B3816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1C9E828251514A7F2F533 /* Pods-blood-donation.debug.xcconfig */,
+				9A26D37EC89435CB397ADE15 /* Pods-blood-donation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478B0FAD2792F159006EE72B /* blood-donation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478B0FC22792F15C006EE72B /* Build configuration list for PBXNativeTarget "blood-donation" */;
+			buildPhases = (
+				9A4F84B0372773CF35A9680E /* [CP] Check Pods Manifest.lock */,
+				478B0FAA2792F159006EE72B /* Sources */,
+				478B0FAB2792F159006EE72B /* Frameworks */,
+				478B0FAC2792F159006EE72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blood-donation";
+			productName = "blood-donation";
+			productReference = 478B0FAE2792F159006EE72B /* blood-donation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478B0FA62792F159006EE72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					478B0FAD2792F159006EE72B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 478B0FA92792F159006EE72B /* Build configuration list for PBXProject "blood-donation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478B0FA52792F159006EE72B;
+			productRefGroup = 478B0FAF2792F159006EE72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478B0FAD2792F159006EE72B /* blood-donation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478B0FAC2792F159006EE72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B0FBE2792F15C006EE72B /* LaunchScreen.storyboard in Resources */,
+				478B0FBB2792F15C006EE72B /* Assets.xcassets in Resources */,
+				478B0FB92792F159006EE72B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4F84B0372773CF35A9680E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blood-donation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478B0FAA2792F159006EE72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B0FB62792F159006EE72B /* ViewController.swift in Sources */,
+				478B0FC62793211B006EE72B /* BannerCell.swift in Sources */,
+				478B0FB22792F159006EE72B /* AppDelegate.swift in Sources */,
+				47DBA908279335040019C9CE /* DonationController.swift in Sources */,
+				47DBA906279328170019C9CE /* HomeController.swift in Sources */,
+				478B0FB42792F159006EE72B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		478B0FB72792F159006EE72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B0FB82792F159006EE72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478B0FBC2792F15C006EE72B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B0FBD2792F15C006EE72B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478B0FC02792F15C006EE72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478B0FC12792F15C006EE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478B0FC32792F15C006EE72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B1C9E828251514A7F2F533 /* Pods-blood-donation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZGL6R438Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "blood-donation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunsung-dev.blood-donation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478B0FC42792F15C006EE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A26D37EC89435CB397ADE15 /* Pods-blood-donation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZGL6R438Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "blood-donation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunsung-dev.blood-donation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478B0FA92792F159006EE72B /* Build configuration list for PBXProject "blood-donation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B0FC02792F15C006EE72B /* Debug */,
+				478B0FC12792F15C006EE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478B0FC22792F15C006EE72B /* Build configuration list for PBXNativeTarget "blood-donation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B0FC32792F15C006EE72B /* Debug */,
+				478B0FC42792F15C006EE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478B0FA62792F159006EE72B /* Project object */;
+}
